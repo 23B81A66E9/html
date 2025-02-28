@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div style="width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #fff;">
+        <h1 style="text-align: center;">Registration Form</h1>
+        <form action="#" method="POST">
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required style="width: 100%; padding: 8px; margin: 5px 0;">
+
+            <label for="psw">Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required style="width: 100%; padding: 8px; margin: 5px 0;">
+
+            <label for="psw-repeat">Repeat Password</label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required style="width: 100%; padding: 8px; margin: 5px 0;">
+
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="dob" id="dob" required style="width: 100%; padding: 8px; margin: 5px 0;">
+
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="male" value="male"> Male
+            <input type="radio" name="gender" id="female" value="female"> Female
+            <input type="radio" name="gender" id="other" value="other"> Other<br><br>
+
+            <label for="addr">Address</label>
+            <input type="text" placeholder="Enter Address" name="addr" id="addr" required style="width: 100%; padding: 8px; margin: 5px 0;">
+
+            <label for="no">Mobile Number</label>
+            <input type="number" placeholder="Enter Mobile Number" name="no" id="no" required style="width: 100%; padding: 8px; margin: 5px 0;">
+
+            <p style="text-align: center;">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Register</button>
+        </form>
+
+        <p style="text-align: center; margin-top: 10px;">Already have an account? <a href="#">Sign in</a>.</p>
+    </div>
+</body>
+</html>
